@@ -60,9 +60,7 @@ export default function CheckBox(props) {
       <Dialog>
         <DialogTrigger asChild>
           <div className="flex justify-center">
-            <Checkbox
-            // checked={isChecked} onChange={handleCheckboxChange}
-            />
+            <Checkbox checked={true} />
           </div>
         </DialogTrigger>
         <DialogContent className="sm:max-w-[425px]">
